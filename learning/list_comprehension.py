@@ -1,3 +1,60 @@
+#List Comprehension = A concise way to create lists in Python, Compact and
+#easier to read that traditional loops [expression for value in iterable if condition]
+
+# doubles = []
+# for x in range(1, 11):
+#     doubles.append(x * 2)
+# print(doubles)
+
+
+#SAME THING, BUT IN LIST COMPREHENSION BELOW
+
+
+# doubles = [x * 2 for x in range(1, 11)]
+# #other examples:
+# triples = [y * 3 for y in range(1, 11)]
+# squares = [z * z for z in range(1, 11)]
+# print(doubles)
+# print(triples)
+# print(squares)
+
+
+# fruits = ["apple", "orange", "banana", "coconut"]
+# fruits = [fruit.upper() for fruit in fruits]
+# print(fruits)
+# #"fruit" is our itorator, this prints the fruits in uppercase.
+
+# fruits = ["apple", "orange", "banana", "coconut"]
+# fruit_chars = [fruit[1] for fruit in fruits]
+# print(fruit_chars)
+#prints out the first letter of each fruit, can type 1 to get 2nd letter
+
+
+# numbers = [1, -2, 3, -4, 5, -6]
+# posotive_nums = [num for num in numbers if num >= 0]
+# print(posotive_nums)
+# #prints the posotive numbers in the list
+
+# numbers = [1, -2, 3, -4, 5, -6]
+# negative_nums = [num for num in numbers if num < 0]
+# print(negative_nums)
+# #prints negetive numbers
+
+# numbers = [1, -2, 3, -4, 5, -6]
+# even_nums = [num for num in numbers if num % 2 == 0]
+# print(even_nums)
+# #prints even numbers
+
+# numbers = [1, -2, 3, -4, 5, -6]
+# odd_nums = [num for num in numbers if num % 2 == 1]
+# print(odd_nums)
+# #prints odd numbers
+
+
+grades = [85, 42, 79, 90, 56, 61, 30]
+passing_grades = [grade for grade in grades if grade >= 60]
+print(passing_grades)
+
 
 
 ################################################List comprehension###############################################
@@ -37,6 +94,10 @@
 # temperature_fahrenheit = [32, 212, 275]
 
 # Store this new list in a variable called degrees_celsius
+
+
+
+
 
 
 
