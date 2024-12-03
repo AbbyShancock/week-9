@@ -51,9 +51,25 @@
 # #prints odd numbers
 
 
-grades = [85, 42, 79, 90, 56, 61, 30]
-passing_grades = [grade for grade in grades if grade >= 60]
-print(passing_grades)
+# grades = [85, 42, 79, 90, 56, 61, 30]
+# passing_grades = [grade for grade in grades if grade >= 60]
+# print(passing_grades)
+
+
+#Practice 1
+# numbers = [3, 7, 10, 15, 21]
+# doubled_values = [num * 2 for num in numbers]
+# print(doubled_values)
+
+# #Practice 2
+# values = [8, 11, 20, 25, 32, 47, 55]
+# odd_nums = [num for num in values if num % 2 == 1]
+# print(odd_nums)
+
+# #Practice 3
+# words = ["apple", "banana", "cherry", "date"]
+# word_lengths = [len(word) for word in words]
+# print(word_lengths)
 
 
 
@@ -94,6 +110,11 @@ print(passing_grades)
 # temperature_fahrenheit = [32, 212, 275]
 
 # Store this new list in a variable called degrees_celsius
+
+
+
+
+
 
 
 
